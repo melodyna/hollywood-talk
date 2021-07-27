@@ -38,7 +38,7 @@
 }
 
 #login-form input:focus {
-    border-color: #df00ff;
+    border-color: #cd57e5;
 }
 
 #login-form input[type="submit"] {
