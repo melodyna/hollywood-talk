@@ -1,0 +1,27 @@
+.main-screen .icon-row {
+    margin-top: -25px;
+}
+
+.icon-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.icon-row__icon i {
+    font-size: 25px;
+}
+
+.icon-row__icon span {
+    margin-top: 18px;
+    font-size: 14px;
+}

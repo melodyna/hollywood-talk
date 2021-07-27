@@ -1,0 +1,142 @@
+.find-screen {
+    height: 107vh;
+}
+
+.recommended-friends {
+    margin: 15px 0px;
+    padding : 15px 0px;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+}
+
+.recommended-friends__title,
+.open-chat__header h6,
+.open-chat__header span {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.recommended-friends span {
+    margin: 90px 0px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.open-chat__header i {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.open-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.open-post__title {
+    font-weight: 600;
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+
+.open-post__hashtags {
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+.open-post__members {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.open-post__members img {
+    width: 15px;
+    height: 15px;
+    border-radius: 70%;
+    margin-right: 5px;
+}
+
+.open-post__member-count {
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.open-post__members .divider {
+    width: 1px;
+    height: 12px;
+    margin: 0px 5px;
+    background-color: var(--text-grey);
+}
+.open-post__member-status {
+    color: #ffb0e0;
+}
+
+.open-post__photo {
+    position: relative;
+}
+
+.open-post__photo img {
+    width: 106px;
+    height: 106px;
+    border-radius: 10px;
+}
+
+.open-post__heart-count {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 7px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 9px;
+    font-size: 12px;
+}
+
+.open-post__heart-count span {
+    margin-left: 4px;
+}
+
+@keyframes heartBeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: tomato;
+        transform: scale(1.5);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+}
+
+.open-post:nth-child(2) {
+    padding-bottom: 12px;
+    border-bottom: var(--main-border);
+}
+
+.open-post:last-child {
+    margin-top: 12px;
+}
+
+.open-post:last-child .open-post__hashtags {
+    text-transform: lowercase;
+}
