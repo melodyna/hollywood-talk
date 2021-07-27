@@ -139,11 +139,6 @@
     transition: all 0.3s ease-in-out;
 }
 
-.reply__column:last-child>i,
-.reply__column:last-child button {
-    
-}
-
 .reply__column:last-child>i {
     padding-right: 5px;
 } 
@@ -155,7 +150,7 @@
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    margin: 0 4.5px;
+    margin: 0 2.5px;
     flex-shrink: 0;
 }
 
