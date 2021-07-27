@@ -1,19 +1,19 @@
 #chat-screen {
-    background-color: #abc1d1;
+    background-color: #eccef4;
     height: 100vh;
 }
 
 #chat-screen .alt-header {
     position: fixed;
     width: 100%;
-    background-color: #abc1d1;
+    background-color: #eccef4;
     box-sizing: border-box;
     top: 0;
     z-index: 1;
 }
 
 #chat-screen .status-bar {
-    background-color: #abc1d1;
+    background-color: #eccef4;
     z-index: 2;
 }
 
@@ -37,7 +37,7 @@
 
 .chat__timestamp {
     color: white;
-    background-color: #92a4b2;
+    background-color: #2e363e;;
     padding: 6px 10px;
     font-size: 11px;
     letter-spacing: 2px;
@@ -120,7 +120,7 @@
 }
 .reply .reply__column:last-child {
     width: 90%;
-    display:flex;
+    display: flex;
     align-items: center;
     border-radius: 20px;
     border : var(--main-border);
@@ -144,7 +144,7 @@
 } 
 
 .reply__column button {
-    background-color: var(--yellow);
+    background-color:#cd57e5;;
     border: none;
     box-sizing: border-box;
     width: 35px;
@@ -156,6 +156,7 @@
 
 .reply__column button i {
     opacity: 1;
+    color: white;
 }
 
 .reply__column button:focus, 
@@ -176,7 +177,6 @@
 }
 
 .reply input:focus {
-    width: 97vw;
     transform: translateX(-10.3%) translateY(-80px);
 }
 

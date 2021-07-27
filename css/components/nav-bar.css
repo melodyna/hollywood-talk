@@ -34,7 +34,7 @@
     animation: notificationAnimation 2s ease-in-out infinite; 
 } 
 .nav__dot {
-    background-color: tomato;
+    background-color: #cd57e5;
     width: 5px;
     height: 5px;
     display: flex;
