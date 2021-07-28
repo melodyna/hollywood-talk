@@ -31,3 +31,16 @@
     margin-top: 18px;
     font-size: 14px;
 }
+
+@keyframes rotateFindDisc {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.icon-row__icon .fa-compact-disc {
+    animation: rotateFindDisc 0.6s linear infinite;
+}
