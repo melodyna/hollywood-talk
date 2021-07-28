@@ -26,7 +26,7 @@
 
 .welcome-header__title {
     margin-bottom: 20px;    
-    font-size: 22px;
+    font-size: 18px;
     letter-spacing: 1.5px;
     animation: welcomeHeader 2s ease-in-out forwards;
     animation-delay: 1s;
@@ -72,7 +72,7 @@
     padding: 13px 0px;
     border-radius: 5px; 
     letter-spacing: 2px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #login-form input[type="submit"]:hover {
