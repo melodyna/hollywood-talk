@@ -41,6 +41,6 @@
     }
 }
 
-.icon-row__icon .fa-compact-disc {
+.icon-row__icon .fa-compact-disc:hover {
     animation: rotateFindDisc 0.6s linear infinite;
 }
