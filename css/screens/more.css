@@ -7,8 +7,12 @@
     height: 100%;
 }
 
-.more-screen .icon-row{
+.more-screen .icon-row {
     margin-top: 15px;
+}
+
+.fa-comment-dots:hover {
+    color: #cd57e5;
 }
 
 .more-suggestions {
@@ -43,6 +47,11 @@
     height: 60px;
     border-radius: 10px;
 }
+
+.more-suggestions__icon:hover {
+    color: #cd57e5;
+    font-weight: 600;
+} 
 
 .more-suggestions__icon-text {
     margin-top: 8px;

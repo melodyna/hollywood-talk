@@ -20,6 +20,9 @@
     margin-left: 20px;
 }
 
+.screen-header__icons i:hover {
+    color: #cd57e5;
+}
 
 @keyframes rotateCog {
     from {

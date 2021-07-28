@@ -17,3 +17,8 @@
 .settings__setting-column:last-child {
     opacity: 0.5;
 }
+
+.settings__setting-column:first-child:hover {
+    color: #cd57e5;
+    font-weight: 600;
+}
