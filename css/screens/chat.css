@@ -132,7 +132,7 @@
 
 .reply input {
     padding: 12px;
-    width: 100%;
+    width: 115%;
     border: none;
     border-radius: 20px;
     box-sizing: border-box;
@@ -177,7 +177,8 @@
 }
 
 .reply input:focus {
-    transform: translateX(-10.3%) translateY(-80px);
+    transform: translateX(-11.4%) translateY(-80px);
+    flex-shrink: 0;
 }
 
 .reply:focus-within {
