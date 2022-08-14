@@ -29,11 +29,11 @@ body {
 
 .main-screen {
     padding: 0px var(--horizontal-space);
-    margin-top: 122px;
+    margin-top: 100px;
 }
 
 .main-screen .settings-list {
-    margin-top: -120px;
+    margin-top: -80px;
 }
 
 input, textarea, button {
